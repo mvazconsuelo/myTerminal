@@ -6,11 +6,11 @@ tener en cuenta los siguiente:
 *  "defaultProfile": ID de wls 
 *  "startingDirectory" : "//wsl$/Ubuntu/home/<user>" (cambiar la ruta por defecto wls)
 
-## customize shell
+## Customize shell
 
 instalar Nerd Font https://www.nerdfonts.com/ -->download--> DroidSansMono Nerd Font, instalar.
 
-## instalar zsh
+## Instalar zsh
 
 sudo apt update
 
@@ -18,7 +18,7 @@ sudo apt install zsh -y
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-## instalar powerlevel10k zsh theme
+## Instalar powerlevel10k zsh theme
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 
