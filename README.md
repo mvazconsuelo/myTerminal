@@ -16,6 +16,8 @@ sudo apt update
 
 sudo apt install zsh -y
 
+## Instalar oh! my zsh
+
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ## Instalar powerlevel10k zsh theme
@@ -28,4 +30,9 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 
 
 ## Nota
-Para que renderice los iconos en visual code ir a settings-->Text Editor-->settings.json en "terminal.integrated.fontFamily": "DroidSansMono Nerd Font", (agrega la fuente, reinciar visual code)
+*Para que renderice los iconos en visual code ir a settings-->Text Editor-->settings.json en "terminal.integrated.fontFamily": "DroidSansMono Nerd Font", (agrega la fuente, reinciar visual code)
+
+* Usar paneles 
+    vertical: "alt+ctrl+v"
+    horizontal: "alt+ctrl+h"
+    cerrar: comando exit
