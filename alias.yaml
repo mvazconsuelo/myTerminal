@@ -1,0 +1,33 @@
+ alias tgi="terragrunt init -upgrade"
+ alias tgc="terragrunt-clean"
+ alias tgp="terragrunt plan"
+ alias tga="terragrunt apply"
+ alias tgd="terragrunt destroy"
+ alias tgs="terragrunt state"
+ alias tgsl="terragrunt state list"
+ alias tgsrm="terragrunt state rm"
+ alias terragrunt-clean='find . -type d -name ".terragrunt-cache" -prune -exec rm -rf {} \;'
+
+ alias decodesecret="sh $HOME/Documents/cripts/decodesecret.sh"
+ alias encode64="sh $HOME/Documents/scripts/encode64.sh"
+ alias decode64="sh $HOME/Documents/scripts/decode64.sh"
+
+ alias gc='git commit -m'
+ alias gst='git status'
+ alias g='git'
+ alias gl='git pull'
+ alias gp='git push origin'
+ alias gco='git checkout'
+ alias gcm='git checkout master'
+ alias gb='git branch'
+ alias gcp='git cherry-pick'
+ alias glg='git log --stat --max-count=5'
+ alias glgg='git log --graph --max-count=5'
+ alias ga='git add'
+ alias gm='git merge'
+ alias grh='git reset HEAD'
+ alias grhh='git reset HEAD --hard'
+ alias gcl='git clone'
+ alias gd='git diff'
+ alias grb='git rebase'
+ alias gsh="eval '$(ssh-agent -s)' && ssh-add /home/mauricio/Documents/mauricio/ssh/mauri/mauri"
